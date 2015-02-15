@@ -3,7 +3,7 @@
 """Week 3 Assignment"""
 
 
-from datetime import datetime
+# from datetime import datetime
 import urllib2
 import csv
 import argparse
@@ -39,15 +39,15 @@ def processData(info):
     chrome = 0
     firefox = 0
     ie = 0
-    other = 0
+    # other = 0
 
 
     for row in csvFile:
         path = row[0]
-        timeAccessed = row[1]
+        # timeAccessed = row[1]
         browser = row[2]
-        status = row[3]
-        size = row[4]
+        # status = row[3]
+        # size = row[4]
 
         totalHits += 1.0
 
